@@ -1,0 +1,75 @@
+{
+    "editor.fontSize": 18,
+    "window.zoomLevel": 0,
+    "editor.formatOnPaste": true,
+    "workbench.colorTheme": "Visual Studio Light",
+    "editor.fontWeight": "normal",
+    
+    "workbench.colorCustomizations": {
+        "[Visual Studio Light]": {
+            "editor.background": "#C7EDCC",
+            "editor.lineHighlightBorder":"#F0FFF0",
+            "editorLineNumber.foreground":"#BA55D3",
+            
+            "activityBar.background": "#1e1f29",
+            "activityBar.foreground": "#228B22",
+            "activityBar.inactiveForeground": "#1E90FF",
+            "badge.background":"#ff0000",
+            "activityBar.activeBackground":"#E1FFFF",
+
+            "breadcrumb.background": "#228B22",
+            "breadcrumb.foreground": "#FFFAFA",
+
+            "panel.background":"#FFFAFA",
+            "panelTitle.activeBorder": "#BA55D3",
+            "panelInput.border": "#BA55D3",
+            "panel.border": "#BA55D3",
+            "panelTitle.activeForeground": "#BA55D3",
+            "panelTitle.inactiveForeground": "#1e1f29",
+            "terminal.foreground":"#1e1f29",
+            
+            "titleBar.activeBackground":"#1E90FF",
+            "titleBar.activeForeground":"#FFFAFA",
+            "menubar.selectionBackground":"#BA55D3",
+
+            "tab.inactiveBackground": "#F5FFFA",
+            "tab.inactiveForeground": "#1e1f29",
+            "tab.activeBackground": "#90EE90",
+            "tab.hoverBackground":"#D4F2E7",
+
+            
+            "sideBar.background": "#F0FFF0", 
+            "sideBar.foreground":"#228B22",
+            "sideBar.border": "#BA55D3",
+            "sideBarSectionHeader.foreground": "#008080",
+            "sideBarTitle.foreground": "#BA55D3",
+
+            "menu.background":"#FFFAF0",
+            "quickInput.background":"#F0FFF0"
+        },
+    },
+    "editor.formatOnType": true,
+    "editor.autoClosingBrackets": "always",
+    "editor.bracketPairColorization.enabled": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "editor.formatOnSave": true,
+
+    "[markdown]": {
+        // 快速补全
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        },
+        
+        // 显示空格
+        "editor.renderWhitespace": "all",
+        // snippet 提示优先（看个人喜欢）
+        "editor.snippetSuggestions": "top",
+        "editor.tabCompletion": "on",
+        // 使用enter 接受提示
+        // "editor.acceptSuggestionOnEnter": "on",
+    },
+    "explorer.confirmDelete": false,
+}
