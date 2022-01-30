@@ -1,0 +1,2 @@
+# configCollect
+*Configure collection*
