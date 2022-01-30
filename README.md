@@ -1,2 +1,0 @@
-# configCollect
-Configure collection
