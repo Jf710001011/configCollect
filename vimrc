@@ -15,7 +15,7 @@ set nu
 set relativenumber
 set cursorline
 set cursorcolumn
-hi CursorColumn ctermbg = yellow
+highlight CursorColumn ctermfg=White ctermbg=Yellow cterm=bold guifg=white guibg=yellow gui=bold      " cursorColumn color
 set wildmenu                 " tab
 
 exec "nohlsearch"
