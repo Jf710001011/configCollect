@@ -3,6 +3,8 @@ set shiftwidth=4
 set smartindent              " 为c程序提供自动缩进
 set wrapmargin=2             " 边缘2字符
 set mouse+=a
+inoremap bb {<Enter>}<Esc><S-o>   " 括号
+
 
 set showmode
 set showcmd
