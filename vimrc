@@ -3,6 +3,8 @@ set shiftwidth=4
 set smartindent              " 为c程序提供自动缩进
 set wrapmargin=2             " 边缘2字符
 set mouse+=a
+inoremap bb {<Enter>}<Esc><S-o>   " 括号
+
 
 set showmode
 set showcmd
@@ -15,7 +17,7 @@ set nu
 set relativenumber
 set cursorline
 set cursorcolumn
-hi CursorColumn ctermbg = yellow
+highlight CursorColumn ctermfg=White ctermbg=Yellow cterm=bold guifg=white guibg=yellow gui=bold      " cursorColumn color
 set wildmenu                 " tab
 
 exec "nohlsearch"
