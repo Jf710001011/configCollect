@@ -1,132 +1,29 @@
 {
-    "editor.formatOnPaste": true,
-    "editor.fontWeight": "normal",
-    "workbench.colorCustomizations": {
-        "terminal.foreground": "#FFFAFA",
-        "terminalCursor.background": "#E9E9F4",
-        "terminalCursor.foreground": "#00F769",
-        "terminal.ansiBlack": "#282936",
-        "terminal.ansiBlue": "#62D6E8",
-        "terminal.ansiBrightBlack": "#626483",
-        "terminal.ansiBrightBlue": "#62D6E8",
-        "terminal.ansiBrightCyan": "#A1EFE4",
-        "terminal.ansiBrightGreen": "#EBFF87",
-        "terminal.ansiBrightMagenta": "#B45BCF",
-        "terminal.ansiBrightRed": "#EA51B2",
-        "terminal.ansiBrightWhite": "#F7F7FB",
-        "terminal.ansiBrightYellow": "#00F769",
-        "terminal.ansiCyan": "#A1EFE4",
-        "terminal.ansiGreen": "#EBFF87",
-        "terminal.ansiMagenta": "#B45BCF",
-        "terminal.ansiRed": "#EA51B2",
-        "terminal.ansiWhite": "#E9E9F4",
-        "terminal.ansiYellow": "#00F769",
-        "terminal.selectionBackground": "#FFFAFA",
-        "[Default Dark+]": {
-            "activityBar.inactiveForeground": "#3CB371",
-        },
-        "[]": {
-            "editor.background": "#1e1f29",
-            "activityBar.background": "#08021b",
-            "activityBar.inactiveForeground": "#3CB371",
-            "titleBar.activeBackground": "#1E90FF",
-            "titleBar.activeForeground": "#FFFAFA",
-            "sideBarTitle.foreground": "#BA55D3",
-            "sideBarSectionHeader.foreground": "#FFFAFA",
-            "sideBar.border": "#BA55D3",
-            "breadcrumb.foreground": "#FFFAFA",
-            "panel.border": "#BA55D3",
-            "panelInput.border": "#BA55D3",
-            "panelTitle.activeBorder": "#BA55D3",
-            "terminal.background": "#001f20",
-            "panel.background": "#4D4D4D",
-        },
-        "[Default Light+]": {
-            "editor.background": "#C7EDCC",
-            "editor.lineHighlightBorder": "#F0FFF0",
-            "editorLineNumber.foreground": "#BA55D3",
-            "activityBar.background": "#1e1f29",
-            "activityBar.foreground": "#228B22",
-            "activityBar.inactiveForeground": "#1E90FF",
-            "badge.background": "#ff0000",
-            "activityBar.activeBackground": "#E1FFFF",
-            "breadcrumb.background": "#228B22",
-            "breadcrumb.foreground": "#FFFAFA",
-            "panel.background": "#F0F8FF",
-            "panelTitle.activeBorder": "#BA55D3",
-            "panelInput.border": "#BA55D3",
-            "panel.border": "#BA55D3",
-            "panelTitle.activeForeground": "#BA55D3",
-            "panelTitle.inactiveForeground": "#1e1f29",
-            "terminal.foreground": "#bbbbbb",
-            "terminal.background": "#1e1f29",
-            "titleBar.activeBackground": "#1E90FF",
-            "titleBar.activeForeground": "#FFFAFA",
-            "menubar.selectionBackground": "#BA55D3",
-            "tab.inactiveBackground": "#F5FFFA",
-            "tab.inactiveForeground": "#1e1f29",
-            "tab.activeBackground": "#90EE90",
-            "tab.hoverBackground": "#D4F2E7",
-            "sideBar.background": "#F0FFF0",
-            "sideBar.foreground": "#228B22",
-            "sideBar.border": "#BA55D3",
-            "sideBarSectionHeader.foreground": "#008080",
-            "sideBarTitle.foreground": "#BA55D3",
-            "menu.background": "#FFFAF0",
-            "quickInput.background": "#F0FFF0"
-        },
-    },
-    "editor.formatOnType": true,
-    "editor.autoClosingBrackets": "always",
-    "editor.bracketPairColorization.enabled": true,
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 500,
-    "[markdown]": {
-        // 快速补全
-        "editor.quickSuggestions": {
-            "other": true,
-            "comments": true,
-            "strings": true
-        },
-        // 显示空格
-        "editor.renderWhitespace": "all",
-        // snippet 提示优先（看个人喜欢）
-        "editor.snippetSuggestions": "top",
-        "editor.tabCompletion": "on",
-        // 使用enter 接受提示
-        // "editor.acceptSuggestionOnEnter": "on",
-    },
-    "explorer.confirmDelete": false,
-    "markdown-preview-enhanced.previewTheme": "atom-material.css",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "Fira Code-Light",
+    "workbench.colorTheme": "Dracula Soft",
     "security.workspace.trust.untrustedFiles": "open",
-    "git.autofetch": true,
+    "editor.fontSize": 20,
+    "editor.fontFamily": "Fira Code, 'Fira Code', monospace,新宋体",
+    "editor.fontLigatures": false,
+    "editor.fontWeight": 1,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDelete": false,
+    "files.associations": {
+        "*.json": "jsonc"
+    },
+    "C_Cpp.clang_format_style": "{ BasedOnStyle: Chromium, IndentWidth: 4}",
+    "settingsSync.keybindingsPerPlatform": false,
     "leetcode.endpoint": "leetcode-cn",
-    "leetcode.workspaceFolder": "d:\\leetcode",
-    "leetcode.hint.configWebviewMarkdown": false,
-    "leetcode.hint.commentDescription": false,
-    "leetcode.hint.commandShortcut": false,
+    "leetcode.workspaceFolder": "c:\\Users\\22514\\Desktop\\LeetCode",
     "leetcode.defaultLanguage": "cpp",
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "name": "italic font",
-                "scope": [
-                    "",
-                    "terminal"
-                ],
-                "settings": {
-                    "fontStyle": "italic",
-                }
-            },
-        ]
-    },
-    "files.autoGuessEncoding": true,
-    "C_Cpp.clang_format_style": "{ BasedOnStyle: Google, IndentWidth: 4, AllowAllParametersOfDeclarationOnNextLine: false,AllowAllArgumentsOnNextLine: false,SpacesBeforeTrailingComments: 4,SortIncludes: true,ColumnLimit: 200}",
-    "explorer.confirmDragAndDrop": false,
-    "remote.SSH.showLoginTerminal": true,
-    "remote.SSH.remotePlatform": {
-        "ubuntu": "linux"
-    },
+    "leetcode.hint.configWebviewMarkdown": false,
+    "Codegeex.Privacy": true,
+    "tabnine.experimentalAutoImports": true,
+    "commentTranslate.targetLanguage": "en",
+    "files.autoSaveDelay": 500,
+    "zenMode.hideLineNumbers": false,
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
             "source": "PowerShell",
@@ -140,80 +37,17 @@
             "args": [],
             "icon": "terminal-cmd"
         },
-        "Git-Bash": {
+        "GitBash": {
             // "source": "Git Bash"
-            "path": "D:\\Git\\usr\\bin\\bash.exe", //设置并添加git-bash的local安装路径
+            "path": "D:\\Git\\bin\\bash.exe", //设置并添加git-bash的local安装路径
             "args": []
-        },
-        "Windows PowerShell": {
-            "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
         }
     },
-    "terminal.integrated.defaultProfile.windows": "Git-Bash",
-    "terminal.integrated.fontFamily": "Fira Code",
-    "terminal.external.windowsExec": "D:\\Git\\bin\\bash.exe",
-    "terminal.integrated.fontSize": 15,
-    "terminal.integrated.cursorWidth": 5,
-    "terminal.integrated.cursorBlinking": true,
-    "editor.fontLigatures": true,
-    "editor.formatOnSave": true,
-    "editor.fontSize": 17,
-    "editor.fontFamily": "Consolas",
-    "sqltools.connections": [],
-    "sqltools.autoOpenSessionFiles": false,
-    "workbench.editor.splitInGroupLayout": "vertical",
-    "editor.minimap.enabled": false,
-    "terminal.integrated.shellIntegration.enabled": true,
-    "terminal.integrated.enableMultiLinePasteWarning": false,
-    "algorithm.lang": "cn",
-    "algorithm.codeLang": "C++",
-    "algorithm.baseDir": "D:\\leetcode",
-    "algorithm.displayLock": true,
-    "algorithm.autoImportAlgm": true,
-    "algorithm.nodePath": "",
-    "cSpell.enabledLanguageIds": [
-        "asciidoc",
-        "c",
-        "cpp",
-        "csharp",
-        "css",
-        "git-commit",
-        "go",
-        "graphql",
-        "handlebars",
-        "haskell",
-        "html",
-        "jade",
-        "java",
-        "javascript",
-        "javascriptreact",
-        "json",
-        "jsonc",
-        "jupyter",
-        "latex",
-        "less",
-        "markdown",
-        "php",
-        "plaintext",
-        "python",
-        "pug",
-        "restructuredtext",
-        "rust",
-        "scala",
-        "scss",
-        "swift",
-        "text",
-        "typescript",
-        "typescriptreact",
-        "vue"
-    ],
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Default Light+",
-    "editor.snippetSuggestions": "bottom",
-    "cSpell.userWords": [
-        "inorder",
-        "liuhaihua"
-    ],
-    "workbench.startupEditor": "welcomePageInEmptyWorkbench"
-    // 选中高亮的颜色
+    "terminal.integrated.defaultProfile.windows": "GitBash",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "http.proxyAuthorization": null,
+    "http.proxy": "http://127.0.0.1:7890",
+    "Codegeex.CandidateNum": "3 (medium)"
 }
