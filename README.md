@@ -3,7 +3,11 @@
 - test function `pull`
 --- 
 
-## vim配置
+## Vim配置
 
 
-## vscode配置
+## Vscode配置
+
+## Typora
+
+## Windows Terminal
