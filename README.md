@@ -11,3 +11,5 @@
 ## Typora
 
 ## Windows Terminal
+
+## Picgo
