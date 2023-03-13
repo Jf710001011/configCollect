@@ -52,10 +52,10 @@
       "_configName": "Github-PictureBed",
       "_id": "ffa9d55e-efa5-490d-a12a-4b04cf465c0d",
       "_createdAt": 1678701022414,
-      "_updatedAt": 1678702804537,
+      "_updatedAt": 1678703381419,
       "repo": "Jf710001011/pictureBed",
       "branch": "main",
-      "token": "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",
+      "token": "",      // 手动获取
       "path": "img/",
       "customUrl": "https://cdn.jsdelivr.net/gh/Jf710001011/pictureBed@main"
     }
@@ -103,10 +103,10 @@
           "_configName": "Github-PictureBed",
           "_id": "ffa9d55e-efa5-490d-a12a-4b04cf465c0d",
           "_createdAt": 1678701022414,
-          "_updatedAt": 1678702804537,
+          "_updatedAt": 1678703381419,
           "repo": "Jf710001011/pictureBed",
           "branch": "main",
-          "token": "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",
+          "token": "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",
           "path": "img/",
           "customUrl": "https://cdn.jsdelivr.net/gh/Jf710001011/pictureBed@main"
         }
