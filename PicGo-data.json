@@ -1,0 +1,122 @@
+{
+  "picBed": {
+    "current": "smms",
+    "uploader": "smms",
+    "smms": {
+      "token": "Bmnn48A5CMfsu1ABNwMZEqYx1DIFZBA2",
+      "_configName": "SM.MS",
+      "_id": "7a2b8ed1-e1eb-4233-809f-ec1e22c18ec5",
+      "_createdAt": 1676573032938,
+      "_updatedAt": 1678702354602,
+      "backupDomain": "smms.app"
+    },
+    "list": [
+      {
+        "type": "tcyun",
+        "name": "腾讯云COS",
+        "visible": false
+      },
+      {
+        "type": "aliyun",
+        "name": "阿里云OSS",
+        "visible": false
+      },
+      {
+        "type": "smms",
+        "name": "SM.MS",
+        "visible": true
+      },
+      {
+        "type": "github",
+        "name": "GitHub",
+        "visible": true
+      },
+      {
+        "type": "qiniu",
+        "name": "七牛云",
+        "visible": false
+      },
+      {
+        "type": "imgur",
+        "name": "Imgur",
+        "visible": false
+      },
+      {
+        "type": "upyun",
+        "name": "又拍云",
+        "visible": false
+      }
+    ],
+    "proxy": "http://127.0.0.1:7890",
+    "github": {
+      "_configName": "Github-PictureBed",
+      "_id": "ffa9d55e-efa5-490d-a12a-4b04cf465c0d",
+      "_createdAt": 1678701022414,
+      "_updatedAt": 1678702804537,
+      "repo": "Jf710001011/pictureBed",
+      "branch": "main",
+      "token": "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",
+      "path": "img/",
+      "customUrl": "https://cdn.jsdelivr.net/gh/Jf710001011/pictureBed@main"
+    }
+  },
+  "settings": {
+    "shortKey": {
+      "picgo:upload": {
+        "enable": false,
+        "key": "CommandOrControl+Shift+P",
+        "name": "upload",
+        "label": "QUICK_UPLOAD"
+      }
+    },
+    "showUpdateTip": true,
+    "autoStart": true,
+    "server": {
+      "port": 36677,
+      "host": "127.0.0.1",
+      "enable": true
+    },
+    "privacyEnsure": true,
+    "rename": false,
+    "autoRename": true,
+    "proxy": "http://127.0.0.1:7890",
+    "registry": ""
+  },
+  "needReload": false,
+  "uploader": {
+    "smms": {
+      "configList": [
+        {
+          "token": "Bmnn48A5CMfsu1ABNwMZEqYx1DIFZBA2",
+          "_configName": "SM.MS",
+          "_id": "7a2b8ed1-e1eb-4233-809f-ec1e22c18ec5",
+          "_createdAt": 1676573032938,
+          "_updatedAt": 1678702354602,
+          "backupDomain": "smms.app"
+        }
+      ],
+      "defaultId": "7a2b8ed1-e1eb-4233-809f-ec1e22c18ec5"
+    },
+    "github": {
+      "configList": [
+        {
+          "_configName": "Github-PictureBed",
+          "_id": "ffa9d55e-efa5-490d-a12a-4b04cf465c0d",
+          "_createdAt": 1678701022414,
+          "_updatedAt": 1678702804537,
+          "repo": "Jf710001011/pictureBed",
+          "branch": "main",
+          "token": "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",
+          "path": "img/",
+          "customUrl": "https://cdn.jsdelivr.net/gh/Jf710001011/pictureBed@main"
+        }
+      ],
+      "defaultId": "ffa9d55e-efa5-490d-a12a-4b04cf465c0d"
+    }
+  },
+  "picgoPlugins": {
+    "picgo-plugin-smms-user": false
+  },
+  "debug": true,
+  "PICGO_ENV": "GUI"
+}
