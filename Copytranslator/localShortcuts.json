@@ -1,0 +1,13 @@
+{
+    "undo": "CmdOrCtrl+Z",
+    "redo": "Shift+CmdOrCtrl+Z",
+    "cut": "CmdOrCtrl+X",
+    "copy": "CmdOrCtrl+C",
+    "paste": "CmdOrCtrl+V",
+    "selectAll": "CmdOrCtrl+A",
+    "copyResult": "CmdOrCtrl+S",
+    "copySource": "CmdOrCtrl+D",
+    "quit": "Cmd+Q",
+    "hideWindow": "Escape",
+    "version": "v11.0.0 破晓"
+}

@@ -1,0 +1,235 @@
+{
+    "autoCopy": false,
+    "listenClipboard": true,
+    "dragCopy": true,
+    "doubleClickCopy": true,
+    "incrementalCopy": false,
+    "stayTop": false,
+    "smartDict": true,
+    "contrastDict": true,
+    "focusSource": false,
+    "smartTranslate": true,
+    "autoPaste": false,
+    "autoHide": false,
+    "autoShow": true,
+    "autoFormat": true,
+    "autoPurify": true,
+    "enableNotify": false,
+    "neverShow": false,
+    "showGoogleMessage": true,
+    "activeWindows": [
+        "copytranslator",
+        "v2rayN",
+        "Google Chrome",
+        "Windows Shell Experience Host",
+        "Windows Explorer",
+        "Clash for Windows",
+        "Visual Studio Code",
+        "NeXuS",
+        "Everything",
+        "WeChat",
+        "腾讯QQ",
+        "Firefox",
+        "BookxNote Pro x64",
+        "Rainmeter desktop customization tool",
+        "Proxifier Standard Edition v4.11 x64",
+        "Typora",
+        "WindowsTerminal.exe",
+        "Notepad.exe",
+        "Windows Start Experience Host",
+        "Store",
+        "DeepL",
+        "Internet Download Manager (IDM)",
+        "DeepLSetup",
+        "0install-win",
+        "Snipaste"
+    ],
+    "dragCopyMode": "dragCopyWhiteList",
+    "dragCopyWhiteList": [
+        "BookxNote Pro x64"
+    ],
+    "dragCopyBlackList": [],
+    "listenClipboardMode": "listenClipboardGlobal",
+    "listenClipboardWhiteList": [],
+    "listenClipboardBlackList": [],
+    "isNewUser": true,
+    "toastTip": false,
+    "closeAsQuit": true,
+    "autoCheckUpdate": true,
+    "openAtLogin": false,
+    "enableDoubleCopyTranslate": false,
+    "version": "v11.0.2 破晓",
+    "skipTaskbar": false,
+    "multiSource": false,
+    "drawer": true,
+    "localeSetting": "auto",
+    "hideDirect": "Up",
+    "primaryColor": {
+        "light": "#8E24AA",
+        "dark": "#FF79C6"
+    },
+    "fontColor": {
+        "light": "#000000",
+        "dark": "#50FA7B"
+    },
+    "backgroundColor": {
+        "light": "#FFFFFF",
+        "dark": "#282A36"
+    },
+    "contentFontFamily": "\"Fira Code\", Arial, Helvetica, sans-serif, \"华文中宋\"",
+    "interfaceFontFamily": "\"JetBrains mono\", Arial, Helvetica, sans-serif, \"华文中宋\"",
+    "colorMode": "auto",
+    "titlebarHeight": 32,
+    "penerate": false,
+    "configSnapshots": {},
+    "transparency": 0,
+    "layoutType": "vertical",
+    "horizontal": {
+        "diffFontSize": 15,
+        "sourceFontSize": 15,
+        "resultFontSize": 15,
+        "dictFontSize": 15,
+        "x": 304,
+        "y": 0,
+        "height": 860,
+        "width": 1104,
+        "ratio": 0.5
+    },
+    "vertical": {
+        "diffFontSize": 15,
+        "sourceFontSize": 17,
+        "resultFontSize": 18,
+        "dictFontSize": 15,
+        "x": 280,
+        "y": 0,
+        "height": 868,
+        "width": 1104,
+        "ratio": 0.5
+    },
+    "focus": {
+        "diffFontSize": 15,
+        "resultFontSize": 15,
+        "dictFontSize": 15,
+        "x": 172,
+        "y": 0,
+        "height": 864,
+        "width": 1100
+    },
+    "settings": {
+        "x": 1390,
+        "y": 133,
+        "height": 787,
+        "width": 500
+    },
+    "tray": [
+        "configSnapshot",
+        "newConfigSnapshot",
+        "clear",
+        "retryTranslate",
+        "autoCopy",
+        "autoPaste",
+        "incrementCounter",
+        "autoHide",
+        "autoShow",
+        "stayTop",
+        "listenClipboard",
+        "dragCopy",
+        "copySource",
+        "copyResult",
+        "settings",
+        "exit"
+    ],
+    "contrastPanel": [
+        "autoCopy",
+        "autoPaste",
+        "incrementalCopy",
+        "autoHide",
+        "autoShow",
+        "autoFormat",
+        "dragCopy",
+        "stayTop",
+        "listenClipboard",
+        "sourceLanguage",
+        "targetLanguage",
+        "translateInput",
+        "settings"
+    ],
+    "actionButtons": [
+        {
+            "icon": "mdi-view-quilt",
+            "left_click": "enumerateLayouts",
+            "right_click": "incrementCounter"
+        },
+        {
+            "left_click": "copyResult",
+            "right_click": "copySource",
+            "icon": "mdi-content-copy"
+        },
+        {
+            "left_click": "minimize",
+            "right_click": "closeWindow",
+            "icon": "mdi-window-minimize"
+        }
+    ],
+    "translatorType": "deepl",
+    "dictionaryType": "bing",
+    "sourceLanguage": "auto",
+    "targetLanguage": "zh-CN",
+    "googleMirror": "https://gtranslate.cdn.haah.net",
+    "googleSource": "google",
+    "fallbackTranslator": "google",
+    "pasteDelay": 0,
+    "translator-enabled": [
+        "google",
+        "baidu",
+        "caiyun",
+        "keyan",
+        "bing",
+        "deepl",
+        "tencent",
+        "youdao",
+        "sogou"
+    ],
+    "translator-cache": [],
+    "translator-compare": [
+        "google",
+        "baidu",
+        "caiyun",
+        "keyan",
+        "bing",
+        "deepl",
+        "tencent",
+        "youdao",
+        "sogou"
+    ],
+    "translator-double": [],
+    "baidu": {
+        "appid": "",
+        "key": ""
+    },
+    "baidu-ocr": {
+        "app_id": "",
+        "api_key": "",
+        "secret_key": ""
+    },
+    "pp-ocr": {
+        "cwd": "",
+        "config_name": ""
+    },
+    "baidu-domain": {
+        "appid": "",
+        "key": "",
+        "domain": ""
+    },
+    "google": {
+        "token": ""
+    },
+    "sogou": {
+        "pid": "",
+        "key": ""
+    },
+    "youdao": {
+        "appKey": "",
+        "key": ""
+    }
+}
