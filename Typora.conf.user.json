@@ -16,17 +16,16 @@
     ]
   ],
   "keyBinding": {
-    // Core shortcuts mapped to English menu items
-    "Code": "ctrl+`",                    // 代码 → Code (inline code)
-    "Increase Heading Level": "ctrl+shift+]",  // 提升标题级别
-    "Decrease Heading Level": "ctrl+shift+[",  // 降低标题级别
-    "Quote": "ctrl+shift+q",             // 引用 (changed from ctrl+` to avoid conflict)
-    "Ordered List": "ctrl+shift+o",      // 有序列表
-    "Unordered List": "ctrl+shift+u",    // 无序列表
-    "YAML Front Matter": "ctrl+0",       // YAML Front matter
-    "Hyperlink": "ctrl+l",               // 链接引用
-    "Strikethrough": "ctrl+d",           // 删除线
-    "Code Fences": "alt+`"               // 代码块 → Code Fences (code block)
+    "Inline Code": "ctrl+`",
+    "Increase Heading Level": "ctrl+shift+]",
+    "Decrease Heading Level": "ctrl+shift+[",
+    "Quote": "ctrl+shift+q",
+    "Ordered List": "ctrl+shift+o",
+    "Unordered List": "ctrl+shift+u",
+    "YAML Front Matter": "ctrl+0",
+    "Hyperlink": "ctrl+l",
+    "Strikethrough": "ctrl+d",
+    "Code Fences": "alt+`"
   },
   "monocolorEmoji": false,
   "maxFetchCountOnFileList": 500,
