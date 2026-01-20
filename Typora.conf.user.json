@@ -1,40 +1,34 @@
-/** For advanced users. */
 {
   "files.associations": {
     "*.json": "jsonc"
   },
   "defaultFontFamily": {
-    "standard": null, //String - Defaults to "Times New Roman".
-    "serif": null, // String - Defaults to "Times New Roman".
-    "sansSerif": null, // String - Defaults to "Arial".
-    "monospace": null // String - Defaults to "Courier New".
+    "standard": null,
+    "serif": null,
+    "sansSerif": null,
+    "monospace": null
   },
-  "autoHideMenuBar": false, //Boolean - Auto hide the menu bar unless the `Alt` key is pressed. Default is false.
-  // Array - Search Service user can access from context menu after a range of text is selected. Each item is formatted as [caption, url]
+  "autoHideMenuBar": false,
   "searchService": [
     [
       "Search with Google",
       "https://google.com/search?q=%s"
     ]
   ],
-  // Custom key binding, which will override the default ones.
-  // see https://support.typora.io/Shortcut-Keys/#windows--linux for detail
   "keyBinding": {
-    // for example: 
-    // "Always on Top": "Ctrl+Shift+P"
-    // All other options are the menu items 'text label' displayed from each typora menu
-    "代码": "ctrl+`",
-    "提升标题级别": "ctrl+shift+]",
-    "降低标题级别": "ctrl+shift+[",
-    "引用": "ctrl+`",
-    "有序列表": "",
-    "无序列表": "",
-    "YAML Front matter": "ctrl+0",
-    "链接引用": "ctrl+l",
-    "删除线": "ctrl+d",
-    "代码块": "alt+`"
+    // Core shortcuts mapped to English menu items
+    "Code": "ctrl+`",                    // 代码 → Code (inline code)
+    "Increase Heading Level": "ctrl+shift+]",  // 提升标题级别
+    "Decrease Heading Level": "ctrl+shift+[",  // 降低标题级别
+    "Quote": "ctrl+shift+q",             // 引用 (changed from ctrl+` to avoid conflict)
+    "Ordered List": "ctrl+shift+o",      // 有序列表
+    "Unordered List": "ctrl+shift+u",    // 无序列表
+    "YAML Front Matter": "ctrl+0",       // YAML Front matter
+    "Hyperlink": "ctrl+l",               // 链接引用
+    "Strikethrough": "ctrl+d",           // 删除线
+    "Code Fences": "alt+`"               // 代码块 → Code Fences (code block)
   },
-  "monocolorEmoji": false, //default false. Only work for Windows
+  "monocolorEmoji": false,
   "maxFetchCountOnFileList": 500,
-  "flags": [] // default [], append Chrome launch flags, e.g: [["disable-gpu"], ["host-rules", "MAP * 127.0.0.1"]]
+  "flags": []
 }
